@@ -1,3 +1,11 @@
-// Prints Hello world in the debug output.
+// Assigns the text color #3D3D3D to the HTML tags body and p.
 
-@debug "Hello world";
+$primary-text-color: #3D3D3D;
+
+body {
+  color: $primary-text-color;
+}
+
+p {
+  color: $primary-text-color;
+}
